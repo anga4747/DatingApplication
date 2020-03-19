@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using DatingAppp.API.Models;
 
 namespace DatingAppp.API.Dtos
@@ -25,6 +26,6 @@ namespace DatingAppp.API.Dtos
 
         public string PhotoUrl { get; set; }
 
-        public ICollection<Photo> Photos { get; set; }
+        public ICollection<PhotosForDetailedDto> Photos { get; set; }
     }
 }
